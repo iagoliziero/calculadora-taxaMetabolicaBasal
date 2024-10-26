@@ -18,7 +18,7 @@ function calculo() {
         resultado = 88.36 + (13.4 * peso) + (4.8 * altura) - (5.7 * idade);
         break;
         case "mulher":
-        resultado = 447.6 + (9,2 * peso) + (3.1 * altura) - (4.3 * idade);
+        resultado = 447.6 + (9.2 * peso) + (3.1 * altura) - (4.3 * idade);
         break;
         default:
         alert("Insira um número valido.")
