@@ -25,5 +25,5 @@ function calculo() {
         break;
     }
     //resultado
-    resultadoSaida.textContent = "Sua Taxa Metabólica Basal é: " + resultado;
+    resultadoSaida.textContent = "Sua Taxa Metabólica Basal é: " + resultado + "kcal";
 }

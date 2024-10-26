@@ -15,3 +15,10 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+#resultadoSaida {
+    max-width: 5ch;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+}
