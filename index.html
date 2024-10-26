@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <main class="main">
+
+        <script src="script.js"></script>
+
+        <h1> <b> Cálculo Metabólico Basal </b></h1>
+
+          <!-- Inputs de entrada -->
+        <input type="number" id="peso" placeholder="Peso em Kg">  </input>
+        <input type="number" id="altura" placeholder="Altura em cm">  </input>
+        <input type="number" id="idade" placeholder="Idade em anos">  </input>
+
+         <!-- Seletor de operações -->
+        <select name="operacao" id="operacao">
+
+            <option value="homem"> Homem </option>
+            <option value="mulher"> Mulher </option>
+        </select>
+
+            <!-- Botão para executar o cálculo -->
+        <input class="botao" type="submit" value="calcular" onclick="calculo()">
+        <h3 id="resultadoSaida"> </h3>
+        </main>
+       
+
+</body>
+</html>
